@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GITLEARN</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="../index.html"><img src="../images/gitLearn.png" width="51 px" height="51 px" alt="GITLEARN"></a></li>
+      <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+      <li><a href="inicioSesion.html">Inicio de Sesión</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenedor principal con flexbox -->
+  <main>
+    
+    <!-- Aside lateral -->
+    <aside>
+      <ul>
+        <li class="c">CURSOS</li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">HTML y CSS</a></li>
+        <li><a href="#">MySQL</a></li>
+        <li><a href="#">Android</a></li>
+        <li><a href="#">Desarrollo de IA y Robótica</a></li>
+      </ul>
+    </aside>
+
+    <!-- Contenido principal -->
+    <form>
+        <form action="procesar_inscripcion.php" method="post">
+            <h2>Inscripción a Curso</h2>
+            <p>Por favor, completa todos los campos para poder inscribirte en nuestro curso de JAVA.</p>
+        
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        
+            <label for="direccion">Nº Tarjeta:</label>
+            <input type="text" id="tarjeta" name="tarjeta" required>
+        
+            <button type="submit"><a href="cursoJava.html">Inscribirse</a></button>
+          </form>
+
+  </main>
+
+  <footer>
+    <p>Contacto</p>
+  </footer>
+
+</body>
+
+</html>
