@@ -37,13 +37,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 40px;
 }
-
 
 aside{
     background-color: rgba(0,0,0,.5);
-    min-height: calc(100vh - 110px);
+    min-height: calc(100vh - 170px);
     width: 200px;
     display: flex;
     justify-content: center;
@@ -109,7 +108,6 @@ p{
   line-height: 2px;
   margin-bottom: 2px;
 }
-
 
 button{
     font-size: 24px;
@@ -214,4 +212,52 @@ input {
       padding: 5px 15px;
       border-radius: 25px;        
   }
+}
+
+#social ul{
+  width: 200px;
+  display:block;
+  list-style: none;
+  padding:0px;
+  overflow:hidden;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align:center;
+  background-color:#rgba(0,0,0,0.7);;
+  max-height: 36px;
+}
+
+#social ul li {
+  display:inline-block;
+}
+
+#social ul li a{
+  display:block;
+  width:24px;
+  height: 24px;
+  background: url(https://1.bp.blogspot.com/-CLqcvZtBWCQ/U_oDeDpK-RI/AAAAAAAAA9U/PR7RwGKarOE/s1600/sprite.png);
+  float:left;
+  background-color:black;
+  margin:4px;
+  border: 2px solid whitesmoke;
+  transition: all 0.4s ease;
+}
+
+#social ul li a.Facebook{
+  background-position: 0px 0px;  
+}
+
+#social ul li a.Mail{
+  background-position: -96px 0px; 
+}
+
+#social ul li a.RSS{
+  background-position: -72px 0px; 
+}
+
+#social ul li a:hover{
+  background-color:black;
+  border:2px solid whitesmoke;
+  border-radius:26px;
 }
